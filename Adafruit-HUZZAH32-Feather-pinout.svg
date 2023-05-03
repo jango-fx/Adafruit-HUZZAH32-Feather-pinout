@@ -708,7 +708,7 @@
                 <feFuncA type="table" tableValues="1 0" />
             </feComponentTransfer>
             <feGaussianBlur stdDeviation="0.5" />
-            <feOffset dx="0" dy="-2" result="offsetblur" />
+            <feOffset dx="0" dy="-1.5" result="offsetblur" />
             <feFlood flood-color="rgba(0, 0, 0, 0.6)" result="color" />
             <feComposite in2="offsetblur" operator="in" />
             <feComposite in2="SourceAlpha" operator="in" />
